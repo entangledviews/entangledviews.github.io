@@ -61,7 +61,7 @@ analytics:
   google:
     id: # fill in your Google Analytics ID
   goatcounter:
-    id: "entangledviews" # fill in your GoatCounter ID
+    id: 'entangledviews' # fill in your GoatCounter ID
   umami:
     id: # fill in your Umami ID
     domain: # fill in your Umami domain
@@ -75,7 +75,14 @@ analytics:
 
 # Page views settings
 pageviews:
-  provider: # now only supports 'goatcounter'
+  provider: 'goatcounter' # now only supports 'goatcounter'
+
+#
+head:
+  custom: |
+    <script data-goatcounter="https://entangledviews.goatcounter.com/count"
+            async src="//gc.zgo.at/count.js"></script>
+
 
 # Prefer color scheme setting.
 #
