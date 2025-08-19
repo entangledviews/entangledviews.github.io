@@ -23,3 +23,5 @@ package-lock.json
 !.vscode/tasks.json
 
 # Misc
+website.code-workspace
+_posts/*.ipynb
