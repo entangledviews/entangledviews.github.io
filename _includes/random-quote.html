@@ -10,26 +10,20 @@
         "{{ q | escape }}"{% unless forloop.last %},{% endunless %}
       {% endfor %}
     ];
-    
+
+    // Pick a random quote
     const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
-    document.getElementById("random-quote").innerHTML = `<em>${randomQuote}</em>`;
+
+    // Split on the last hyphen to separate author
+    const lastHyphenIndex = randomQuote.lastIndexOf(" - ");
+    let text = randomQuote;
+    let author = "";
+    if (lastHyphenIndex !== -1) {
+      text = randomQuote.slice(0, lastHyphenIndex);
+      author = randomQuote.slice(lastHyphenIndex + 3); // skip " - "
+    }
+
+    // Insert into HTML, emphasizing only the author
+    document.getElementById("random-quote").innerHTML = `${text} <em>- ${author}</em>`;
   });
 </script>
-
-<!--
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const quotes = [
-      "The best way to predict the future is to invent it. - Alan Kay",
-      "Do what you can, with what you have, where you are. - Theodore Roosevelt",
-      "Simplicity is the soul of efficiency. - Austin Freeman",
-      "Stay hungry, stay foolish. - Steve Jobs",
-      "In the middle of every difficulty lies opportunity. - Albert Einstein"
-    ];
-    
-    const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
-    document.getElementById("random-quote").innerHTML = `<em>${randomQuote}</em>`;
-  });
-</script>
-
--->
