@@ -8,7 +8,7 @@ tags: [spectroscopy]
 pin: false
 math: true
 mermaid: true
-media_subpath: /_posts/uv_spectroscope
+media_subpath: /assets/posts/uv_spectroscope
 
 image:
   path: test.png
