@@ -78,10 +78,10 @@ pageviews:
   provider: 'goatcounter' # now only supports 'goatcounter'
 
 #
-head:
-  custom: |
-    <script data-goatcounter="https://entangledviews.goatcounter.com/count"
-            async src="//gc.zgo.at/count.js"></script>
+#head:
+#  custom: |
+#    <script data-goatcounter="https://entangledviews.goatcounter.com/count"
+#            async src="//gc.zgo.at/count.js"></script>
 
 
 # Prefer color scheme setting.
