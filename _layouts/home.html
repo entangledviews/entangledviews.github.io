@@ -47,6 +47,7 @@ refactor: true
   {% endfor %}
 {% endif %}
 
+<!-- #post-list -->
 <div id="post-list" class="flex-grow-1 px-xl-1">
   {% for post in posts %}
     <article class="card-wrapper card">
@@ -115,7 +116,10 @@ refactor: true
     </article>
   {% endfor %}
 </div>
-<!-- #post-list -->
+
+<!-- random quote -->
+{% include random-quote.html %}
+
 
 {% if paginator.total_pages > 1 %}
   {% include post-paginator.html %}

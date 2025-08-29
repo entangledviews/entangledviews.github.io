@@ -1,0 +1,18 @@
+<div id="random-quote" class="quote-box my-3 p-3 border rounded text-center">
+  <em>Loading a random quote...</em>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const quotes = [
+      "The best way to predict the future is to invent it. – Alan Kay",
+      "Do what you can, with what you have, where you are. – Theodore Roosevelt",
+      "Simplicity is the soul of efficiency. – Austin Freeman",
+      "Stay hungry, stay foolish. – Steve Jobs",
+      "In the middle of every difficulty lies opportunity. – Albert Einstein"
+    ];
+    
+    const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+    document.getElementById("random-quote").innerHTML = `<em>${randomQuote}</em>`;
+  });
+</script>
