@@ -5,12 +5,12 @@ author: yves
 date: 2025-08-29 12:33:00 +0200
 categories: [Applied Physics, spectroscopy]
 tags: [spectroscopy]
-pin: true
+pin: false
 math: true
 mermaid: true
 
 image:
-  path: test.png
+  path: _posts/test.png
   lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
   alt: Prototype UV spectroscope dispersing monochromatic light onto a detector plate
 ---
@@ -158,9 +158,9 @@ $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 ```mermaid
  gantt
   title  Adding GANTT diagram functionality to mermaid
-  apple :a, 2017-07-20, 1w
-  banana :crit, b, 2017-07-23, 1d
-  cherry :active, c, after b a, 1d
+  apple :a, 2017-07-20, 1y
+  banana :crit, b, 2017-07-23, 20w
+  cherry :active, c, after b a, 30w
 ```
 
 ## Images
