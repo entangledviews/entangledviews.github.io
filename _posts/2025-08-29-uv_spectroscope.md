@@ -5,7 +5,7 @@ author: yves
 date: 2025-08-29 12:33:00 +0200
 categories: [Applied Physics, spectroscopy]
 tags: [spectroscopy]
-pin: false
+pin: true
 math: true
 mermaid: true
 
