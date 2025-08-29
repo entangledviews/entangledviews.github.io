@@ -2,6 +2,21 @@
   <em>Loading a random quote...</em>
 </div>
 
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const quotes = [
+      {% for q in site.data.quotes %}
+        "{{ q | escape }}"{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ];
+    
+    const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+    document.getElementById("random-quote").innerHTML = `<em>${randomQuote}</em>`;
+  });
+</script>
+
+<!--
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     const quotes = [
@@ -16,3 +31,5 @@
     document.getElementById("random-quote").innerHTML = `<em>${randomQuote}</em>`;
   });
 </script>
+
+-->
