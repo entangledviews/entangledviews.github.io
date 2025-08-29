@@ -1,5 +1,5 @@
 ---
-title: UV spectroscope
+title: UV spectroscope design
 description: Design of a low cost UV spectroscope for scientific use.
 author: yves
 date: 2025-08-29 12:33:00 +0200
