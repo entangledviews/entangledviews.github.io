@@ -14,6 +14,9 @@ MathJax = {
       ['$', '$'],
       ['\\(', '\\)']
     ],
+    chtml: {
+      mtextInheritFont: true,  // Improves text selection consistency
+    },
     {%- comment -%} start/end delimiter pairs for display math {%- endcomment -%}
     displayMath: [
       ['$$', '$$'],

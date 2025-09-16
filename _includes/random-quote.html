@@ -2,31 +2,6 @@
   <em>Loading a quote...</em>
 </div>
 
-<!--
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const quotes = [
-      {% for q in site.data.quotes %}
-        "{{ q | escape }}"{% unless forloop.last %},{% endunless %}
-      {% endfor %}
-    ];
-
-    const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
-
-    // Split on the last hyphen for the author
-    /*const lastHyphenIndex = randomQuote.lastIndexOf(" - ");
-    let text = randomQuote;
-    let author = "";
-    if (lastHyphenIndex !== -1) {
-      text = randomQuote.slice(0, lastHyphenIndex);
-      author = randomQuote.slice(lastHyphenIndex + 3);
-    }
-    */
-    document.getElementById("random-quote").innerHTML = `<em>${randomQuote}</em>`;
-    //document.getElementById("random-quote").innerHTML = `${text} <em>- ${author}</em>`;
-  });
-</script>
--->
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     const quotes = [

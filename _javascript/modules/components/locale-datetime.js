@@ -46,7 +46,7 @@ export function initLocaleDatetime() {
         elem.getAttribute('data-bs-toggle') === 'tooltip'
       ) {
         // see: https://day.js.org/docs/en/display/format#list-of-localized-formats
-        const tooltipText = date.format('llll');
+        const tooltipText = date.format('ddd, MMM D, YYYY HH:mm');
         elem.setAttribute('data-bs-title', tooltipText);
       }
     });

@@ -16,10 +16,10 @@ timezone:
 
 title: Entangled views # the main title
 
-tagline: A physics blog with leaps into maths, computer science and engineering # it will display as the subtitle
+tagline: Explaining physics and building experiments for science, flight, and space. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A physics blog with leaps into maths, computer science and engineering.
+  Explaining physics and building experiments for science, flight, and space.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -35,7 +35,7 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Yves JV
-  email: entangledviews@isocohedron.33mail.com # change to your email address
+  email: yves.janssenverlaak@student.uhasselt.be # change to your email address
   links:
   - https://entangledviews.github.io/about/
     # The first element serves as the copyright owner's link
@@ -96,7 +96,9 @@ pageviews:
 #     light — Use the light color scheme
 #     dark — Use the dark color scheme
 #
-theme_mode: # [light | dark]
+
+#### TEMPORARY!!!
+theme_mode: dark # [light | ]
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url

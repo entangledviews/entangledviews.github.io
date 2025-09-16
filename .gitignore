@@ -26,3 +26,7 @@ package-lock.json
 website.code-workspace
 _posts/*.ipynb
 editing_images
+tools/*.ipynb
+tools/output/
+tools/input/
+_tabs/about.ipynb

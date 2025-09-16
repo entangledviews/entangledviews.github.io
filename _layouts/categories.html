@@ -91,9 +91,12 @@ layout: page
             <i class="fas fa-fw fa-angle-down"></i>
           </a>
         {% else %}
-          <span data-bs-toggle="collapse" class="category-trigger hide-border-bottom disabled">
-            <i class="fas fa-fw fa-angle-right"></i>
-          </span>
+          <!-- Make the button redirect to the category if no sub_categories are found-->
+          <a href="{{ _category_url | relative_url }}" class="category-trigger hide-border-bottom text-decoration-none">
+            <span>
+              <i class="fas fa-fw fa-angle-right"></i>
+            </span>
+          </a>
         {% endif %}
       </div>
       <!-- .card-header -->
