@@ -34,7 +34,7 @@ It can be shown that the anti-parallel configuration has lower energy.[^B_field]
 
 ## Derivation
 
-The interaction Hamiltonian for a magnetic moment in a field is $H_{\text{int}} = -\mathbf{m} \cdot \mathbf{B}$. In the hydrogen atom there are two such moments, the electron's magnetic moment $\mathbf{m_1}$ and the proton's magnetic moment $\mathbf{m_2}$.
+The interaction Hamiltonian for a magnetic moment in a field is $H_{\text{int}} = -\mathbf{m} \cdot \mathbf{B}$. In the hydrogen atom there are two such moments, the electron's magnetic moment $\mathbf{m_1}$ and the proton's magnetic moment \(\mathbf{m_2}\).
 The magnetic field $B$ acting on the electron arises from $\mathbf{m_2}$ and is given by[^B_field]
 
 $$ 
