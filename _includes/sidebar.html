@@ -4,12 +4,12 @@
   <header class="profile-wrapper">
 
     {%- if site.avatar != empty and site.avatar -%}
-    <a id="avatar">
+
         {%- capture avatar_url -%}
           {% include media-url.html src=site.avatar %}
         {%- endcapture -%}
         <img src="{{- avatar_url -}}" width="112" height="112" alt="avatar" onerror="this.style.display='none'">
-    </a>
+    
     {%- endif -%}
     
     <a class="site-title d-block" href="{{ '/' | relative_url }}">{{ site.title }}</a>

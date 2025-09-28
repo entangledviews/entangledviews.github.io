@@ -67,8 +67,8 @@ We chose to apply to launch on two launch dates, the primary date of 27/04/2025 
 ### Results
 
 In total, we had two succesful balloon launches with excellent weather on both occasions. While originally planning for one launch, the stars aligned for a second launch: we made a full recovery of the gondola on the first launch, excellent weather predictions, approval for a second launch and had enough material for a second launch.  For detailed information and experiment data see:
-- [Pi in the sky: Launch 1](../stratospheric_launch_1/)
-- [Pi in the sky: Launch 2](../stratospheric_launch_2/)
+- [Pi in the sky: Launch 1]()
+- [Pi in the sky: Launch 2]()
 
 ### Local news
 
