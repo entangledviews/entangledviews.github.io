@@ -22,11 +22,11 @@ Pi in the Sky is a student-led high-altitude balloon program combining engineeri
 The UV spectrometer, developed within the project, was designed using 3D-printed components and equipped with optical elements to analyze sunlight absorption in the UV range. Launched twice into the stratosphere (up to ~41 km), it collected over 130 GB of data, demonstrating the feasibility of low-cost atmospheric spectroscopy and providing insights into solar spectra and trace gas detection.
 
 ### Payloads
-There were 2 scientific payloads onboard of the gondola, our self developed [UV spectrometer]() to measure trace gas concentrations in the atmosphere and a highschool experiment by the **Vrij Technisch Instituut** in **Ieper** measuring exterior and interior temperatures and atmospheric pressure. Allowing for the creation of altitude, ascent rate and temperature graphs.
+There were 2 scientific payloads onboard of the gondola, our self developed [UV spectrometer](#) to measure trace gas concentrations in the atmosphere and a highschool experiment by the **Vrij Technisch Instituut** in **Ieper** measuring exterior and interior temperatures and atmospheric pressure. Allowing for the creation of altitude, ascent rate and temperature graphs.
 
-As we wanted to capture the curvature and atmosphere of our beautiful planet, we equipped the gondola with an [Raspberry Pi Zero powered camera]() capturing the vista's on the outside of the balloon. 
+As we wanted to capture the curvature and atmosphere of our beautiful planet, we equipped the gondola with an [Raspberry Pi Zero powered camera](#) capturing the vista's on the outside of the balloon. 
 
-In order to track the balloon, we equipped the gondola with an [self-designed APRS tracker]() and a backup TKstar GPS tracker. The APRS tracker sends live telemetry packets with location, altitude and time on the amateur APRS radio frequency of 144.8 MHz at a rate of one packet every minute. The backup TKstar tracker has an internal sim card which upon sending a specific command will return the last known GPS location and cell tower. These two systems provide a decent chance of recovery of the gondola and integrated scientific payloads but still rely on the reception of GPS signals.
+In order to track the balloon, we equipped the gondola with an [self-designed APRS tracker](#) and a backup TKstar GPS tracker. The APRS tracker sends live telemetry packets with location, altitude and time on the amateur APRS radio frequency of 144.8 MHz at a rate of one packet every minute. The backup TKstar tracker has an internal sim card which upon sending a specific command will return the last known GPS location and cell tower. These two systems provide a decent chance of recovery of the gondola and integrated scientific payloads but still rely on the reception of GPS signals.
 
 
 ### Construction
@@ -67,8 +67,8 @@ We chose to apply to launch on two launch dates, the primary date of 27/04/2025 
 ### Results
 
 In total, we had two succesful balloon launches with excellent weather on both occasions. While originally planning for one launch, the stars aligned for a second launch: we made a full recovery of the gondola on the first launch, excellent weather predictions, approval for a second launch and had enough material for a second launch.  For detailed information and experiment data see:
-- [Pi in the sky: Launch 1]()
-- [Pi in the sky: Launch 2]()
+- [Pi in the sky: Launch 1](#)
+- [Pi in the sky: Launch 2](#)
 
 ### Local news
 
