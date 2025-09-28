@@ -29,4 +29,5 @@ editing_images
 tools/*.ipynb
 tools/output/
 tools/input/
+tools/old
 _tabs/about.ipynb

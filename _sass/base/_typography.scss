@@ -264,3 +264,25 @@ main {
     } /* tbody */
   } /* table */
 }
+
+.table-wrapper > table.trans-table {
+  margin-bottom: 0rem;  // ensures the table has the desired bottom margin
+  background-color: transparent !important;
+
+  thead {
+    border-bottom: none !important;
+  }
+
+  tbody tr {
+    border-bottom: none !important;
+
+    &:nth-child(odd),
+    &:nth-child(even) {
+      background-color: transparent !important;
+    }
+  }
+
+  td, th {
+    background-color: transparent !important;
+  }
+}

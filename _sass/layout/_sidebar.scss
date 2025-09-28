@@ -55,24 +55,24 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
 
   #avatar {
     display: block;
-    width: 6.5rem;
-    height: 6.5rem;
+    width: 6.5rem;//6.5rem;
+    height: 6.5rem;//6.5rem;
     overflow: hidden;
-    box-shadow: var(--avatar-border-color) 0 0 0 2px;
+    //box-shadow: var(--avatar-border-color) 0 0 0 2px;
     transform: translateZ(0); /* fixed the zoom in Safari */
 
     @include bp.sm {
-      width: 7rem;
-      height: 7rem;
+      width: 6.5rem;
+      height: 6.5rem;
     }
-
-    img {
+    // disable hover effects
+    /*img {
       transition: transform 0.5s;
 
       &:hover {
-        transform: scale(1.2);
+        transform: scale(1.1);
       }
-    }
+    } */ 
   }
 
   .profile-wrapper {
@@ -142,6 +142,7 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
         font-weight: 600;
 
         &:hover {
+          color: var(--sidebar-hover-text); //white = #201f1f; black = #c1c1c1;
           background-color: var(--sidebar-hover-bg);
         }
 
@@ -232,6 +233,7 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
     }
 
     .icon-border {
+      visibility: hidden; // make dot invisible
       @extend %no-cursor;
       @include mx.ml-mr(calc((v.$sb-btn-gap - $btn-border-width) / 2));
 

@@ -4,7 +4,7 @@
   <header class="profile-wrapper">
 
     {%- if site.avatar != empty and site.avatar -%}
-    <a href="{{ '/' | relative_url }}" id="avatar" class="rounded-circle">
+    <a id="avatar">
         {%- capture avatar_url -%}
           {% include media-url.html src=site.avatar %}
         {%- endcapture -%}
@@ -26,8 +26,13 @@
           <span>{{ site.data.locales[include.lang].tabs.home | upcase }}</span>
         </a>
       </li>
-      <!-- the real tabs -->
-      {% for tab in site.tabs %}
+
+      {%- comment -%}
+      Only show tabs that do not have show: false in front matter.
+      {%- endcomment -%}
+
+      {% assign showableTabs = site.tabs | where_exp: "tab", "tab.show != false" | sort: "order" %}
+      {% for tab in showableTabs %}
         <li class="nav-item{% if tab.url == page.url %}{{ " active" }}{% endif %}">
           <a href="{{ tab.url | relative_url }}" class="nav-link">
             <i class="fa-fw {{ tab.icon }}"></i>

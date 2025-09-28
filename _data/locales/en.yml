@@ -11,7 +11,7 @@ layout:
 tabs:
   # format: <filename_without_extension>: <value>
   home: Homepage
-  categories: Topics
+  topics: Topics
   tags: Tags
   archives: Timeline
   about: About
@@ -23,7 +23,7 @@ search:
   no_results: Oops! No results found.
 
 panel:
-  lastmod: Recently Updated
+  lastmod: Recently posted
   trending_tags: Trending Tags
   toc: Contents
 

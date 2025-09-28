@@ -98,7 +98,7 @@ pageviews:
 #
 
 #### TEMPORARY!!!
-theme_mode: # dark # [light | dark]
+theme_mode: #dark # [light | dark]
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
@@ -108,7 +108,7 @@ theme_mode: # dark # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: assets/img/favicons/phoenix.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -158,7 +158,9 @@ pwa:
       - "https://gc.zgo.at"
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
-paginate: 10
+paginate: 20         # number of posts per page
+paginate_path: "/posts/page:num/"   # path for paginated pages
+
 
 # The base URL of your site
 baseurl: ""
@@ -234,4 +236,4 @@ jekyll-archives:
     tag: tag
   permalinks:
     tag: /tags/:name/
-    category: /categories/:name/
+    category:  /topics/:name/

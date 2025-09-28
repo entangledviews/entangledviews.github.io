@@ -7,9 +7,6 @@
    width="348.284"
    height="107.12267"
    viewBox="0 0 348.284 107.12267"
-   sodipodi:docname="Bar_magnet_Transition.pdf"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
@@ -1215,36 +1212,8 @@
          id="path194" />
     </clipPath>
   </defs>
-  <sodipodi:namedview
-     id="namedview1"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
-     borderopacity="1"
-     inkscape:showpageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#505050"
-     inkscape:export-bgcolor="#ffffffff">
-    <inkscape:page
-       x="0"
-       y="0"
-       inkscape:label="1"
-       id="page1"
-       width="348.284"
-       height="107.12267"
-       margin="0"
-       bleed="0"
-       inkscape:export-filename="Bar_magnet_Transition.svg"
-       inkscape:export-xdpi="500"
-       inkscape:export-ydpi="500" />
-  </sodipodi:namedview>
   <g
-     id="g1"
-     inkscape:groupmode="layer"
-     inkscape:label="1"
-     inkscape:export-filename="Bar_magnet_Transition.svg"
-     inkscape:export-xdpi="300"
-     inkscape:export-ydpi="300">
+     id="g1">
     <rect
        style="fill:#ffffff;stroke:#ef3432;stroke-width:0;stroke-linejoin:round;paint-order:stroke fill markers"
        id="rect229"

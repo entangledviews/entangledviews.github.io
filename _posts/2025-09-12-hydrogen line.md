@@ -3,12 +3,14 @@ title: "From Spin to Signal: The physics behind the 1.42 GHz Hydrogen Line"
 description: "A step by step derivation and explanation of why Hydrogen emits radiation at 1.42GHz."
 author: yves
 date: 2025-09-11 12:00:00 +0200
-categories: [Theoretical physics, quantum]
-tags: [stratospheric, balloon, science, physics, engineering, spectrometer, spectra, pi in the sky]
+categories: [Theoretical physics, Quantum]
+tags: [theoretical, quantum, hyperfine, physics, hydrogen-line, spin]
 pin: false
+recent-project: false
 math: true
 mermaid: true
 media_subpath: /assets/posts/hydrogen-line
+toc_fixed: true
 
 image:
   path: hydrogen_transition.jpg
@@ -16,7 +18,7 @@ image:
   alt: Hydrogen atom undergoing a hyperfine transition and emitting radiation, adapted from Wikipedia.
 ---
 
-The 21cm hydrogen line was first theoretically predicted in 1944 by Dutch astronomer Hendrik van de Hulst. Its initial detection seven years later marked the birth of 21cm astronomy. This discovery was made simultaneously in 1951 by Harold Ewen and Edward Purcell at Harvard University, who built a revolutionary horn antenna to capture the signal from our galaxy. 
+The 21cm hydrogen line was first theoretically predicted in 1944 by Dutch astronomer Hendrik van de Hulst. Its initial detection seven years later marked the birth of **21cm astronomy**. This discovery was made simultaneously in 1951 by Harold Ewen and Edward Purcell at Harvard University, who built a revolutionary horn antenna to capture the signal from our galaxy. 
 
 
 This discovery opened the cosmos to spectral line radio astronomy. Since then, measuring the Doppler shift of this specific frequency has become a staple project for aspiring radio amateurs. By comparing the observed frequency from observed Hydrogen clouds to the known laboratory value of $1420\;405\;751.768 \pm 0.002 \; \mathrm{Hz}$[^Hline], the precise radial velocities can be calculated. But why is this radiation emitted at this exact frequency?
@@ -27,14 +29,14 @@ In this article, I will derive the hyperfine transition of the hydrogen ground s
 
 The system of the electron "orbiting" the proton can be thought of as two magnetic dipoles with a certain relative orientation (parallel or anti-parallel). The proton itself has an intrinsic magnetic moment arising from its spin, and this generates a magnetic field that extends into the region of the electron. The electron, carrying both charge and spin, also possesses a magnetic moment. 
 
-<img style="background-color: white;" src="Bar_magnet_Transition.svg" alt="Hydrogen atom analogy with bar magnets" width="500" height="500">
+![Desktop View](Bar_magnet_Transition.png){: style="max-width: 500px; height: auto;"}
 _Transition between parallel and anti-parallel orientations of the electron and proton in Hydrogen, represented by bar magnets._
 
 It can be shown that the anti-parallel configuration has lower energy.[^B_field] Intuitively, this corresponds to opposite poles aligning, where the dipoles attract more strongly, in contrast to the parallel configuration where like poles oppose each other and the energy of the system is higher.
 
 ## Derivation
 
-The interaction Hamiltonian for a magnetic moment in a field is $H_{\text{int}} = -\mathbf{m} \cdot \mathbf{B}$. In the hydrogen atom there are two such moments, the electron's magnetic moment $\mathbf{m_1}$ and the proton's magnetic moment \(\mathbf{m_2}\).
+The interaction Hamiltonian for a magnetic moment in a field is $H_{\text{int}} = -\mathbf{m} \cdot \mathbf{B}$. In the hydrogen atom there are two such moments, the electron's magnetic moment $\mathbf{m_1}$ and the proton's magnetic moment $\mathbf{m_2}$.
 The magnetic field $B$ acting on the electron arises from $\mathbf{m_2}$ and is given by[^B_field]
 
 $$ 
@@ -57,7 +59,7 @@ $$
 
 with $a$ as the Bohr radius and $\ket{\chi}$ as the spin state.
 
-### First order perturbation theory
+## First order perturbation theory
 
 The full Hamiltonian is decomposed into the unperturbed part and the hyperfine interaction: $H = H_0 + H_{\text{int}}$. The unperturbed part in this example represents the hydrogen atom only under influence of the Coulomb law, $H_0 = -\frac{\hbar^2}{2m} \nabla^2 - \frac{e^2}{4\pi \epsilon_0} \frac{1}{r}$. The first-order energy correction is given by the expectation value of the perturbation Hamiltonian:
 
@@ -69,15 +71,28 @@ E' &= \bra{\Psi} H_{\text{int}} \ket{\Psi} \\
 \end{align*}
 $$
 
-The dipole term $H_{\text{dipole}}$ averages to zero because the ground state is spherically symmetric and the dipole field term, $-\frac{\mu_0}{4\pi r^3} (3(\hat{\mathbf{r}}\cdot\mathbf{m})\hat{\mathbf{r}} - \mathbf{m})$, is an odd function. As the integral of an odd function over a symmetric distribution is zero, this term goes to zero.[^Dipole_exercise] 
+The dipole term $H_{\text{dipole}}$ does not contribute in the ground state because the hydrogen $1s$ wavefunction is spherically symmetric. The magnetic dipole field,
+
+$$
+\mathbf{B}(\mathbf{r}) \;\propto\; \frac{1}{r^3}\left(3(\hat{\mathbf{r}}\cdot \mathbf{m_2})\hat{\mathbf{r}} - \mathbf{m_2}\right),
+$$
+
+when integrated over the entire sphere, goes to zero.[^Dipole_exercise] 
+
+
+$$
+\bra{\Psi} H_{\text{dipole}} \ket{\Psi} = 0 .
+$$
+
+Now we only have to deal with the dirac-delta pulse at the origin. Substituting the magnetic moments,
 
 $$
 \begin{align*}
-&= \bra{\Psi} \frac{-2 \mu_0}{3} \, (\mathbf{m_1} \cdot \mathbf{m_2}) \, \delta^3(\mathbf{r}) \ket{\Psi}
+\bra{\Psi} H_{\text{contact}} \ket{\Psi} &= \bra{\Psi} \frac{-2 \mu_0}{3} \, (\mathbf{m_1} \cdot \mathbf{m_2}) \, \delta^3(\mathbf{r}) \ket{\Psi}
 \end{align*}
 $$
 
-The leaves only the contact term $H_\text{contact}$, separating spatial and spin parts in the state $\ket{\Psi} = \ket{\psi}\ket{\chi}$
+This leaves only the contact term $H_\text{contact}$, separating spatial and spin parts in the state $\ket{\Psi} = \ket{\psi}\ket{\chi}$
 
 $$
 \begin{align*}
@@ -102,22 +117,23 @@ $$
 \end{align*}
 $$
 
-The magnetic moments $\mathbf{m_1}$ and $\mathbf{m_2}$ of respectively the proton and electron are proportional to their spin with gyromagnetic constants $\gamma_p$ and $\gamma_e$ expressed in units of frequency,
+
+The magnetic moments $\mathbf{m_1}$ and $\mathbf{m_2}$ of respectively the proton and electron are proportional to their spin with gyromagnetic constants $\gamma_p$ and $\gamma_e$ expressed in units of frequency. These are more commonly expressed in terms of the Landé $g$-factors and particle masses as
 
 $$
 \begin{align*}
-\mathbf{m_1} &= \gamma_p \, I \\
-\mathbf{m_2} &= - \gamma_e \, S
+\mathbf{m_1} = \gamma_p \, I = \frac{g_p\, e}{2 m_p}\, I, \quad
+\mathbf{m_2} = - \gamma_e \, S = - \frac{g_e\, e}{2 m_e}\, S
 \end{align*}
 $$
 
-So 
+The minus sign for the electron reflects its negative charge, so its magnetic moment points opposite to its spin. So now
 
 $$
 \begin{align*}
 E' &= \frac{-2 \mu_0}{3 \pi a^3} \braket{\mathbf{m_1} \cdot \mathbf{m_2}} \\
-&= \frac{-2 \mu_0}{3 \pi a^3} \gamma_p \, (-\gamma_e) \braket{I \cdot S} \\
-&= \frac{2 \mu_0}{3 \pi a^3} \gamma_p \, \gamma_e \braket{I \cdot S}
+&= \frac{-2 \mu_0}{3 \pi a^3} \frac{g_p \, e}{2m_p} \, \left(-\frac{g_e \, e}{2m_e}\right) \braket{I \cdot S} \\
+&= \frac{\mu_0\,e^2}{6 \pi a^3} \frac{g_p g_e}{m_p m_e} \braket{I \cdot S} 
 \end{align*}
 $$
 
@@ -182,7 +198,7 @@ $$
 and in conclusion, 
 
 $$
-\braket{S \cdot I} = 
+\braket{I \cdot S} = 
 \begin{cases}
 \frac{1}{4}\hbar^2 &(\mathrm{triplet})\\
 -\frac{3}{4}\hbar^2 &(\mathrm{singlet})
@@ -192,14 +208,14 @@ $$
 Note: we cannot consider the $S$ and $I$ $z$-components seperately due to spin-spin coupling between the proton and electron, therefore we used the total angular momentum $F$.
 
 
-### Energies
+## Energies
 
 To find the energies of each state, we can substitute the expectation value as
 
 $$
 \begin{align*}
-E' &= \frac{2 \mu_0}{3 \pi a^3} \gamma_p \, \gamma_e \braket{S \cdot I} \\
-&= \frac{2 \mu_0}{3 \pi a^3} \gamma_p \, \gamma_e 
+E' &= \frac{\mu_0\,e^2}{6 \pi a^3} \frac{g_p g_e}{m_p m_e} \braket{I \cdot S} \\
+&= \frac{\mu_0\,e^2}{6 \pi a^3} \frac{g_p g_e}{m_p m_e} 
 \begin{cases}
 \frac{1}{4}\hbar^2 &(\mathrm{triplet})\\
 -\frac{3}{4}\hbar^2 &(\mathrm{singlet})
@@ -211,24 +227,8 @@ Finding the energy transition between these states is now trivially easy by taki
 
 $$
 \begin{align*}
-\Delta E' &= \frac{2 \mu_0}{3 \pi a^3} \gamma_p \, \gamma_e \left(- \frac{3}{4} - \frac{1}{4} \right)\hbar^2 \\
-&= -\frac{2 \mu_0 \hbar^2}{3 \pi a^3} \gamma_p \, \gamma_e
-\end{align*}
-$$
-
-Using the definition of gyromagnetic ratio for $\gamma_p$ and $\gamma_e$
-
-$$
-\gamma = g\,\frac{e}{2m}
-$$
-
-with Landé $g$-factor, elementary charge $e$ and mass of particle $m$
-
-$$
-\begin{align*}
-\Delta E' &= -\frac{2 \mu_0 \hbar^2}{3 \pi a^3} \gamma_p \, \gamma_e \\
-&= -\frac{2 \mu_0 \hbar^2}{3 \pi a^3} g_p \left( \frac{e}{2m_p} \right) g_e \left( \frac{e}{2m_e} \right) \\
-&= -\frac{\mu_0 \hbar^2 e^2}{6 \pi a^3} \frac{g_p g_e}{m_e m_p}
+\Delta E' &= \frac{\mu_0\,e^2}{6 \pi a^3} \frac{g_p g_e}{m_p m_e} \left(- \frac{3}{4} - \frac{1}{4} \right)\hbar^2 \\
+&= -\frac{\mu_0 e^2 \hbar^2}{6 \pi a^3} \frac{g_p g_e}{m_p m_e}
 \end{align*}
 $$
 
@@ -263,9 +263,6 @@ $$
 $$
 
 These values are in close agreement with the observed laboratory value[^Hline], the small error is due to taking only the first order perturbation approximation neglecting higher-order QED and nuclear corrections.
-
-(Obviously this is not a groundbreaking result, as this derivation can be found in several textbooks like in <em>Introduction to Quantum Mechanics</em> by David Griffiths. But there is always some value in doing a derivation for yourself and trying to reason every step.)
-
 # Sources
 [^introduction_qm]: David J. Griffiths, <em>Introduction to Quantum Mechanics</em>, 3rd ed., Eq. 4.135
 [^Dipole_exercise]: David J. Griffiths, <em>Introduction to Quantum Mechanics</em>, 3rd ed., Exercise 7.31
