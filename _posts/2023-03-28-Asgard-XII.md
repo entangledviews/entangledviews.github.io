@@ -19,7 +19,7 @@ image:
 
 LQIP
 
-The ASGARD project gives high school students the chance to plan, build, and launch real scientific experiments into near space using high-altitude balloons, combining teamwork with hands-on learning. For an overview of all launches, see the [main project post](../asgard-campaigns/).
+The ASGARD project gives high school students the chance to plan, build, and launch real scientific experiments into near space using high-altitude balloons, combining teamwork with hands-on learning. For an overview of all launches, see the [main project post](../Asgard-campaigns/).
 
 ## Intro
 
@@ -93,7 +93,7 @@ and $R = 8.31432 \,\text{J/(mol·K)}$ as the universal gas constant.
 Using the aprs.fi platform, displaying live APRS packets on a map of the Earth, the trajectory 2D of the gondola can be reconstructed. The plot clearly shows its easternly path and eventual landing site at Neuss, capturing the full journey of the flight from launch to recovery.
 
 ![2d flightpath](2d_flightpath.jpg){: width="750"  }
-_Asgard XII's (gondola B) 2D flightpath on [aprs.fi](aprs.fi)._
+_Asgard XII's (gondola B) 2D flightpath on [aprs.fi](https://aprs.fi)._
 
 Using the received APRS packets, the gondola’s positional and altitude data were processed to generate a 3D visualization of its flight path within Google Earth, providing a clear view of its full ascent and descent profile.
 
