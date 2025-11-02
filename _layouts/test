@@ -1,0 +1,143 @@
+<div id="post-list" class="row gx-3 gy-4">
+
+    <div class="col-md-4">
+        <article class="card-wrapper card">
+            <a href="/posts/hydrogen-line-radio-telescope/" class="post-preview d-block text-decoration-none">
+
+                <div class="preview-img card-img-top post-img vertical-cards"><img class="card-img-top post-img vertical-cards" src="/assets/posts/pi_in_the_sky/beautiful_planet.jpg" alt="The Earth from 37 km above, showing the coastline of Belgium and the Netherlands with a few clouds." loading="lazy"></div>
+
+                <div class="card-body d-flex flex-column h-100 vertical-card-description">
+                    <h1 class="card-title my-2">Building a 21-cm Hydrogen Line Radio Telescope</h1>
+
+                    <div class="card-text content mt-0 mb-3">
+                        <p>Design and building a radio telescope to measure cosmic radiation around the 21-cm line of Hydrogen.</p>
+                    </div>
+
+                    <div class="post-meta mt-auto">
+                        <i class="far fa-calendar fa-fw me-1"></i>
+                        <time>Aug 29, 2025</time>
+                        <br>
+                        <i class="far fa-folder-open fa-fw me-1 no-margin"></i>
+                        <span class="categories">Pi in the Sky</span>
+                    </div>
+                </div>
+            </a>
+        </article>
+    </div>
+
+    <div class="col-md-4">
+        <article class="card-wrapper card">
+            <a href="/posts/21-cm-hydrogen-line-data/" class="post-preview d-block text-decoration-none">
+
+                <div class="preview-img card-img-top post-img vertical-cards"><img class="card-img-top post-img vertical-cards" src="/assets/posts/pi_in_the_sky/beautiful_planet.jpg" alt="The Earth from 37 km above, showing the coastline of Belgium and the Netherlands with a few clouds." loading="lazy"></div>
+
+                <div class="card-body d-flex flex-column h-100 vertical-card-description">
+                    <h1 class="card-title my-2">Analyzing 21-cm Hydrogen Line Observations</h1>
+
+                    <div class="card-text content mt-0 mb-3">
+                        <p>Radio telescope measurements of cosmic hydrogen radiation at the 21-cm line.</p>
+                    </div>
+
+                    <div class="post-meta mt-auto">
+                        <i class="far fa-calendar fa-fw me-1"></i>
+                        <time>Aug 29, 2025</time>
+                        <br>
+                        <i class="far fa-folder-open fa-fw me-1 no-margin"></i>
+                        <span class="categories">Pi in the Sky</span>
+                    </div>
+                </div>
+            </a>
+        </article>
+    </div>
+
+    <div class="col-md-4">
+        <article class="card-wrapper card">
+            <a href="/posts/Pi-in-the-sky/" class="post-preview d-block text-decoration-none">
+
+                <div class="preview-img card-img-top post-img vertical-cards"><img class="card-img-top post-img vertical-cards" src="/assets/posts/pi_in_the_sky/beautiful_planet.jpg" alt="The Earth from 37 km altitude, showing Belgium and the Netherlands’ coastline with a few clouds overhead." loading="lazy"></div>
+
+                <div class="card-body d-flex flex-column h-100 vertical-card-description">
+                    <h1 class="card-title my-2">Pi in the sky: stratospheric balloon program</h1>
+
+                    <div class="card-text content mt-0 mb-3">
+                        <p>A student-led high-altitude balloon program using a custom-built UV spectrometer to measure atmospheric trace gases and demonstrate low-cost space science.</p>
+                    </div>
+
+                    <div class="post-meta mt-auto">
+                        <i class="far fa-calendar fa-fw me-1"></i>
+                        <time>Aug 29, 2025</time>
+                        <br>
+
+                        <i class="far fa-folder-open fa-fw me-1 no-margin"></i>
+                        <span class="categories">Pi in the Sky</span>
+                    </div>
+                </div>
+            </a>
+        </article>
+    </div>
+
+    <div class="col-md-4">
+        <article class="card-wrapper card">
+            <a href="/posts/Asgard-campaign/" class="post-preview d-block text-decoration-none">
+
+                <div class="preview-img card-img-top post-img vertical-cards"><img class="card-img-top post-img vertical-cards" src="/assets/posts/pi_in_the_sky/beautiful_planet.jpg" alt="The Earth from 37 km above, showing the coastline of Belgium and the Netherlands with a few clouds." loading="lazy"></div>
+
+                <div class="card-body d-flex flex-column h-100 vertical-card-description">
+                    <h1 class="card-title my-2">Asgard campaign</h1>
+
+                    <div class="card-text content mt-0 mb-3">
+                        <p>High school project launching</p>
+                    </div>
+
+                    <div class="post-meta mt-auto">
+                        <i class="far fa-calendar fa-fw me-1"></i>
+                        <time>Aug 29, 2025</time>
+                        <br>
+                        <i class="far fa-folder-open fa-fw me-1 no-margin"></i>
+                        <span class="categories">Pi in the Sky</span>
+                    </div>
+                </div>
+            </a>
+        </article>
+    </div>
+
+    <div class="col-md-4">
+        <article class="card-wrapper card">
+            <a href="/posts/Kobo-Gliding-Computer/" class="post-preview d-block text-decoration-none">
+
+                <div class="preview-img card-img-top post-img vertical-cards"><img class="card-img-top post-img vertical-cards" src="/assets/posts/uv_spectrometer/uv_spectrometer_dark.png" alt="Prototype UV spectroscope dispersing monochromatic light onto a detector plate" loading="lazy"></div>
+
+                <div class="card-body d-flex flex-column h-100 vertical-card-description">
+                    <h1 class="card-title my-2">Kobo gliding computer</h1>
+
+                    <div class="card-text content mt-0 mb-3">
+                        <p>Transforming a Kobo e-reader into a compact, airworthy gliding computer for real-time flight data and navigation.</p>
+                    </div>
+
+                    <div class="post-meta mt-auto">
+                        <i class="far fa-calendar fa-fw me-1"></i>
+                        <time>Aug 7, 2025</time>
+                        <br>
+                        <i class="far fa-folder-open fa-fw me-1 no-margin"></i>
+                        <span class="categories">Hobbies, Gliding</span>
+                    </div>
+                </div>
+            </a>
+        </article>
+    </div>
+
+    <div class="col-md-4">
+        <article class="card-wrapper card">
+            <a href="" class="post-preview d-block text-decoration-none">
+
+                <div class="card-body d-flex flex-column h-100 vertical-card-description">
+                    <h1 class="card-title my-2">More projects</h1>
+
+                    <div class="card-text content mt-0 mb-3">
+                        <p></p>
+                    </div>
+                </div>
+            </a>
+        </article>
+    </div>
+</div>

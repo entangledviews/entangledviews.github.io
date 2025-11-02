@@ -48,7 +48,7 @@ header {
 .post-tail-wrapper {
   @extend %text-sm;
 
-  margin-top: 6rem;
+  margin-top: 5rem;
   border-bottom: 1px double var(--main-border-color);
 
   .license-wrapper {
@@ -139,10 +139,15 @@ header {
 }
 
 .post-tags {
-  line-height: 2rem;
-
+  
   .post-tag {
+    line-height: 1.05rem;
+    font-size: .85rem;
+    border-radius: .8rem;
+    line-height: 1.5rem;
+
     &:hover {
+      transition: all .3s ease-in;
       @extend %tag-hover;
     }
   }
@@ -493,4 +498,13 @@ h4 {
   @include bp.xl {
     scroll-margin-top: 2rem;
   }
+}
+
+.center-table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tiny-table {
+  min-width: 50% !important;
 }

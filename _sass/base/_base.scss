@@ -384,7 +384,8 @@ main {
 
 /* MathJax */
 mjx-container {
-  overflow-y: hidden;
+  line-height: 1.2; // give more spacing per line
+  //overflow-y: hidden; //prevent chopping off formula's
   min-width: auto !important;
 }
 

@@ -47,10 +47,12 @@ refactor: true
   {% endfor %}
 {% endif %}
 
+{% assign posts_count = all_normal | size | minus: 8 %}
+
 <!-- #post-list -->
 <div id="post-list" class="row gx-3 gy-4">
-  {% assign posts = posts | where: "recent-project", true %}
-  {% for post in posts limit:5 %}
+  {% assign recent_posts = posts %}
+  {% for post in recent_posts limit:8 %}
     <div class="col-md-4">
       <article class="card-wrapper card">
         <a href="{{ post.url | relative_url }}" class="post-preview d-block text-decoration-none">
@@ -78,12 +80,14 @@ refactor: true
               <br>
               <!-- categories -->
               {% if post.categories.size > 0 %}
-                <i class="far fa-folder-open fa-fw me-1 no-margin"></i>
-                <span class="categories">
+                <div class="post-meta mt-auto d-flex align-items-center">
+                  <i class="far fa-folder-open fa-fw me-1 no-margin"></i>
+                  <span class="categories">
                   {% for category in post.categories %}
                     {{ category }}{%- unless forloop.last -%}, {% endunless -%}
                   {% endfor %}
-                </span>
+                  </span>
+                </div>
               {% endif %}
 
               {% if post.pin %}
@@ -98,16 +102,47 @@ refactor: true
       </article>
     </div>
   {% endfor %}
+
+
+
   <div class="col-md-4">
       <article class="card-wrapper card">
-        <a href="#" class="post-preview d-block text-decoration-none">
-            
+        <a href="posts/" class="post-preview d-block text-decoration-none h-100 ">
+          {% assign filtered_posts = "" | split: "," %}
+          {% for post in posts %}
+            {% if post.recent-project != true and post.image %}
+              {% assign filtered_posts = filtered_posts | push: post %}
+            {% endif %}
+          {% endfor %}
 
-          <div class="card-body d-flex flex-column h-100 vertical-card-description">
-            <h1 class="card-title my-2">More projects</h1>
+          {% assign random_post = filtered_posts | sample %}
+
+          {% if random_post.image %}
+            {% assign src = random_post.image.path | default: random_post.image %}
+            {% unless src contains '//' %}
+              {% assign src = random_post.media_subpath | append: '/' | append: src | replace: '//', '/' %}
+            {% endunless %}
+            {% assign alt = random_post.image.alt | xml_escape | default: 'Preview Image' %}
+            <img class="card-img-top post-img vertical-cards" src="{{ src }}" alt="{{ alt }}">
+          {% endif %}
+
+          <div class="card-body d-flex flex-column vertical-card-description">
+            <h1 class="card-title my-2">See more projects? </h1>
 
             <div class="card-text content mt-0 mb-3">
-              <p>{%- include post-description.html -%}</p>
+              <p>Want to see more of my projects? Click here!</p>
+            </div>
+
+            <div class="post-meta mt-auto">
+              <!-- posted date -->
+              <i class="far fa-calendar fa-fw me-1"></i>
+              2021-{{ 'now' | date: '%Y' }}
+              <br>
+              <!-- categories -->
+              <div class="post-meta mt-auto d-flex align-items-center">
+                <i class="far fa-folder-open fa-fw me-1 no-margin"></i>
+                <span class="categories">All</span>
+              </div>
             </div>
           </div>
         </a>
@@ -117,6 +152,17 @@ refactor: true
 
 
 <style>
+
+.categories {
+  display: inline-block;   /* or block/inline-block depending on layout */
+  white-space: nowrap;     /* prevent wrapping */
+  overflow: hidden;        /* hide overflow */
+  text-overflow: ellipsis; /* show "..." at the end */
+  max-width: 100%;         /* adjust as needed for container */
+  margin-bottom: 0px;
+}
+
+
 
 #post-list {
   margin-top: -1rem !important;
@@ -138,6 +184,25 @@ refactor: true
 .vertical-card-description {
   padding: 0.5rem 1.25rem 1.25rem !important;
 }
+
+.card-body{
+  min-height: 13rem;
+}
+
+.card-title {
+  min-height: 3rem;   
+	align-content: center;
+}     
+
+/*
+.card-text{
+  min-height: 3.2rem;
+}
+
+.card-title {
+  min-height: 3rem;        
+}
+*/
 
 </style>
 

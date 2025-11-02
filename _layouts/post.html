@@ -25,16 +25,18 @@ script_includes:
       <!-- published date -->
       <span>
         {{ site.data.locales[lang].post.posted }}
-        {% include datetime.html date=page.date tooltip=true lang=lang %}
+        {% include datetime.html date=page.date tooltip=false lang=lang %}
       </span>
 
       <!-- lastmod date -->
+      {% comment %}
       {% if page.last_modified_at and page.last_modified_at != page.date %}
         <span>
           {{ site.data.locales[lang].post.updated }}
           {% include datetime.html date=page.last_modified_at tooltip=true lang=lang %}
         </span>
       {% endif %}
+      {% endcomment %}
 
       {% if page.image %}
         {% capture src %}src="{{ page.image.path | default: page.image }}"{% endcapture %}
@@ -145,7 +147,7 @@ script_includes:
         {% for tag in page.tags %}
           <a
             href="{{ site.baseurl }}/tags/{{ tag | slugify | url_encode }}/"
-            class="post-tag no-text-decoration"
+            class="post-tag btn btn-outline-primary"
           >
             {{- tag -}}
           </a>

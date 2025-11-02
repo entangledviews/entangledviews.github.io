@@ -29,8 +29,21 @@ footer {
     @extend %text-highlight;
   }
 
+  
   p {
+    // Change margin dynamically on mobile screens
+    @include bp.lte(bp.get(lgr)) {
+      margin-top: 3rem;
+    }
+
     text-align: center;
     margin-bottom: 0;
+  }
+//te
+  #random-quote {
+    // Change margin dynamically on mobile screens
+    @include bp.lte(bp.get(lgr)) {
+      margin-top: 0rem !important;
+    }
   }
 }

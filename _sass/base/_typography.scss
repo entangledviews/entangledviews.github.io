@@ -286,3 +286,7 @@ main {
     background-color: transparent !important;
   }
 }
+
+.table-wrapper:has(> table.trans-table) {
+  margin-bottom: 0 !important;
+}

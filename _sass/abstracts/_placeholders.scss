@@ -32,7 +32,7 @@
 
 %tag-hover {
   @extend %link-color;
-
+  color: var(--bs-btn-hover-color) !important;
   background: var(--tag-hover);
   border-color: var(--tag-hover);
   transition: background 0.35s ease-in-out;
@@ -45,8 +45,8 @@
 }
 
 %link-hover {
-  color: #db2c2c !important;
-  border-bottom: 1px solid #db2c2c;
+  color: #fe4040ff ;
+  border-bottom: 1px solid #fe4040ff ;
   text-decoration: none;
 }
 
@@ -94,6 +94,15 @@
     padding: 0;
     color: #ababab;
   }
+}
+
+.img_caption {
+    display: block;
+    text-align: center;
+    font-style: normal;
+    font-size: 80%;
+    padding: 0;
+    color: #ababab;
 }
 
 %sidebar-links {

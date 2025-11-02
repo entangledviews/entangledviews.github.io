@@ -72,12 +72,13 @@
         background-color: var(--main-bg, #ffffff);
         background-image: linear-gradient(
           to left,
-          #ffffff,
-          #fbfbfb,
-          #fbfbfb,
-          #fbfbfb,
-          #ffffff
+          #f9f9f9,
+          #f2f2f2,
+          #f2f2f2,
+          #f2f2f2,
+          #f6f6f6
         );
+        
       }
 
       &::before {
