@@ -4,7 +4,7 @@ description: "A collaborative trilingual student experiment developed in Belgium
 author: yves
 date: 2024-07-13 12:00:00 +0200
 categories: [Space]
-tags: [space, esa, ariane6, science, physics, engineering, experiment]
+tags: [space, esa, ariane 6, science, physics, engineering, experiment]
 pin: false
 math: false
 recent-project: false

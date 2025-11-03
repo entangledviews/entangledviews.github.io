@@ -1,5 +1,5 @@
 ---
-title: "From Spin to Signal: The physics behind the 1.42 GHz Hydrogen Line (done)"
+title: "From Spin to Signal: The physics behind the 1.42 GHz Hydrogen Line"
 description: "A step by step derivation and explanation of why Hydrogen emits radiation at 1.42GHz."
 author: yves
 date: 2025-09-11 12:00:00 +0200
