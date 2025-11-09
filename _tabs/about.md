@@ -105,7 +105,7 @@ International Astronautical Congress, Interactive Presentation, International As
 
 ## Certifications
 
-- [Science Faculty coordinator](/assets/certificates/Faculty_coordinator_Yves%20Janssen%20Verlaak.pdf): Elected role on the student council (2025-2026)
+- Science Faculty coordinator: Elected role on the student council (2025-2026)
 - [Young Science Conference](/assets/certificates/YSC_Yves_Janssen_Verlaak.pdf): Presented a poster on a conference as first-year bachelor student (2024)
 - [LaTeX workshop](https://github.com/Allyson-Robert/filii-latex): Assisted in giving an annual LaTeX workshop for three consecutive years at UHasselt (2023-2025)
 - [Certificate buddy program](/assets/certificates/Attest%20buddywerking_YVES%20JANSSEN%20VERLAAK.pdf): Supported first-year physics students with the transition to university life (2024-2025)
