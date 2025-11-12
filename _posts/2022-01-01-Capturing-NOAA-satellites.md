@@ -80,4 +80,4 @@ _NOAA 15 satellite passover on 27/05/2022 at 9:43._
 In conclusion, after some trial-and-error I was able to receive beautiful images of our Earth directly from weather satellites with budget-friendly radio equipment (around 40euros). I hope this post might be helpful to others who also want to capture these stunning images directly and are interested in radio technology.
 
 
-Edit: As of August 2025 all active APT transmitting NOAA satellites were decommissioned (NOAA 15/18/19). We thank you for your service, you will be dearly missed. Per aspera ad astra.
+Edit: As of August 2025 all active APT transmitting NOAA satellites are decommissioned (NOAA 15/18/19). We thank you for your service, you will be dearly missed. Per aspera ad astra.

@@ -5,7 +5,7 @@
 {% assign all_list = '' | split: '' %}
 
 {% for post in site.posts %}
-  {% assign datetime = post.last_modified_at | default: post.date %}
+  {% assign datetime = post.date %}
 
   {% capture elem %}
     {{- datetime | date: "%Y%m%d%H%M%S" -}}::{{- forloop.index0 -}}
