@@ -18,7 +18,7 @@ image:
 ---
 
 
-The ASGARD project gives high school students the chance to plan, build, and launch real scientific experiments into near space using high-altitude balloons, combining teamwork with hands-on learning. For an overview of all launches, see the [ASGARD project post](../asgard-campaigns/).
+The ASGARD project gives high school students the chance to plan, build, and launch real scientific experiments into near space using high-altitude balloons, combining teamwork with hands-on learning. For an overview of all launches, see the [ASGARD project post](../Asgard-campaigns/).
 
 Even though I had entered university by now, I was still invited by my old junior teammembers to help track the balloon and provide some technical guidance. Driving over 700km to recover the gondola and return it safely to Brussels.
 
