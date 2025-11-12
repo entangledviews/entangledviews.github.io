@@ -13,10 +13,8 @@ media_subpath: /assets/posts/noaa_satellites
 
 image:
   path: NOAA_15_AMAZING.jpg
-  lqip: data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAANABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwAbV71LhBCkTRMMxys5UEY5xU8Wu3RB85woKlvlJPA69aathb3PzyRLlScY4x+VTy6daAkrbxjIweM5FFwsVm1K1mIkME0rMAS4HBNFSmILgJtUY6BaKm7HY//Z
   alt: Satellite image captured from NOAA 15 satellite on 27/05/2022 at 9:43.
 ---
-LQIP
 
 There are around 4852 active satellites currently orbiting the Earth. ([space.com](https://www.space.com/world-space-week-satellite-megaconstellations-threaten-astronomy)) 
 Many of these satellites transmit signals in proprietary data formats making decoding these signals impossible without the knowledge of the format or decryption key. Luckily there are a few satellites that transmit their data in publicly known formats without encryption, such as the polar-orbiting NOAA-15, NOAA-18 and NOAA-19 satellites from the *National Oceanic and Atmospheric Administration*. These satellites transmit live weather images near 137 MHz using [Automatic Picture Transmission](https://www.sigidwiki.com/wiki/APT), showing cloud cover and weather phenomena like cyclones and volcanic ash plumes, see table 1 for exact frequencies.

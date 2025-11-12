@@ -7,16 +7,15 @@ categories: [Pi in the Sky]
 tags: [stratospheric, balloon, science, physics, engineering, data processing, spectrometer, spectra, pi in the sky]
 pin: false
 math: true
-recent-project: false
+recent-project: true
 mermaid: false
 media_subpath: /assets/posts/pi_in_the_sky/
 
 image:
   path: beautiful_planet.jpg
-  lqip: data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAALABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCrEitjGD9DSyWwIzg5rjldx0Yj8akFxMOkzj/gRrfmQtToXtzu6UVz32qf/ns//fVFK6Hc/9k=
   alt: The Earth from 37 km above, showing the coastline of Belgium and the Netherlands with a few clouds.
 ---
-LQIP
+
 Pi in the Sky is a student-led high-altitude balloon program combining engineering and physics to carry scientific payloads into the stratosphere. See the [main project post](../Pi-in-the-sky/) for a general overview. 
 
 On 11/05/2025, the second Pi in the Sky launch took place, again launching from Thor Park ($50.994938^\circ\,\mathrm{N}$, $5.538705^\circ\,\mathrm{E}$). This launch incorporated improvements from the previous attempt, such as placing the GPS tracker outside the foil acting as a Faraday cage and lowering the APRS antenna to enhance signal reception.

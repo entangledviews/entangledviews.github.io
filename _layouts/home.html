@@ -51,7 +51,7 @@ refactor: true
 
 <!-- #post-list -->
 <div id="post-list" class="row gx-3 gy-4">
-  {% assign recent_posts = posts %}
+  {% assign recent_posts = posts | where: "recent-project", true %}
   {% for post in recent_posts limit:8 %}
     <div class="col-md-4">
       <article class="card-wrapper card">

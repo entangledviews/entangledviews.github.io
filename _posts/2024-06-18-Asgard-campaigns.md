@@ -22,7 +22,7 @@ The [ASGARD](https://esero.be/index.php/nl/asgard-balloons-for-science/) project
 I personally had the pleasure of partaking in this project for several years in a row, first assisting senior students, then leading the missions myself and guiding new teammates to work together to design, build and launch new experiments. Below is a list of Asgard campaigns in which I contributed and later led:
 
 - [Asgard-X](../Asgard-X/) (2021)
-- Asgard-XI (2022)
+- [Asgard-XI](../Asgard-XI/) (2022 Q2)
 - [Asgard-XII](../Asgard-XII/) (2023)
 
 Many thanks to my former high school physics teacher and dear friend **Dirk Geeroms**, whose encouragement and guidance inspired me to pursue these campaigns, as well as to all my teammates, whose collaboration and dedication made every mission possible.

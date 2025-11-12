@@ -7,7 +7,7 @@ categories: [Space]
 tags: [space, esa, ariane 6, science, physics, engineering, experiment]
 pin: false
 math: false
-recent-project: false
+recent-project: true
 mermaid: false
 media_subpath: /assets/posts/peregrinus
 

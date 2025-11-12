@@ -6,7 +6,7 @@ date: 2025-09-11 12:00:00 +0200
 categories: [Theoretical physics, Quantum]
 tags: [theoretical, quantum, hyperfine, physics, hydrogen line, spin]
 pin: false
-recent-project: false
+recent-project: true
 math: true
 mermaid: false
 media_subpath: /assets/posts/hydrogen-line

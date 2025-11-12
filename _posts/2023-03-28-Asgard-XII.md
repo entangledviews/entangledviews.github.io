@@ -6,26 +6,23 @@ date: 2023-03-28 12:00:00 +0200
 categories: [Space Heading Deezers]
 tags: [stratospheric, balloon, science, physics, engineering, data processing, experiment, asgard]
 pin: false
-recent-project: false
+recent-project: true
 math: true
 mermaid: false
 media_subpath: /assets/posts/asgard/asgard-xii
 
 image:
   path: rmi_presentation.jpg
-  lqip: data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAALABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCrEitjGD9DSyWwIzg5rjldx0Yj8akFxMOkzj/gRrfmQtToXtzu6UVz32qf/ns//fVFK6Hc/9k=
   alt: Group picture of Space Heading Deezers team after presentation at Royal Meteorological Institute in Uccle, Belgium.
 ---
 
-LQIP
+The ASGARD project gives high school students the chance to plan, build, and launch real scientific experiments into near space using high-altitude balloons, combining teamwork with hands-on learning. For an overview of all launches, see the [ASGARD project post](../Asgard-campaigns/).
 
-The ASGARD project gives high school students the chance to plan, build, and launch real scientific experiments into near space using high-altitude balloons, combining teamwork with hands-on learning. For an overview of all launches, see the [main project post](../Asgard-campaigns/).
-
-## Intro
+## Project
 
 This 12th Asgard edition, Asgard-XII, we are specializing to measure air pollution, VOC’s (Volatile Organic Compounds), temperature and atmospheric pressure using an Adafruit BME680 while transmitting it live to the wireless APRS, *Automatic packet retrieval system*, network via the Habduino APRS transmitter.
 
-On March 22, the day before the launch we presented our project to the other schools in the planetarium in Brussels. During these presentations, we got to know the projects of the other schools and listened to a lecture by Michaela Brchnelova about magnetohydrodynamics. After the presentation of the projects by the various groups, which also included Portuguese and British students.
+On March 22, the day before the launch we presented our project to the other schools in the planetarium in Brussels. During these presentations, we got to know the projects of the other schools and listened to a lecture by **Michaela Brchnelova** about magnetohydrodynamics. After the presentation of the projects by the various groups, which also included Portuguese and British students.
 
 ## Launch
 
@@ -111,7 +108,7 @@ As we saw the altitude of the balloon decrease rapidly and moving towards a cana
 ![Recovery Asgard-XII](recovery_photo.jpg){: width="500"  }
 _Recovery of Asgard-XII gondola in industrial harbor of Neuss, Germany._
 
-Many thanks to the **Royal Meteorological Observatory** and **Erik de Schrijver** (Asgard team management) organize this extraordinary experience for high school students as well as my amazing teammates **Antonius Dinca**, **Siebe Penders**, **Seppe Odeur** who went along for the adventure and assisted in team.
+Many thanks to the **Royal Meteorological Observatory** and **Erik de Schrijver** (Asgard campaign management) organizing this extraordinary experience for high school students as well as my amazing teammates **Antonius Dinca**, **Siebe Penders**, **Seppe Odeur** who went along for the adventure and assisted in team.
 
 If you want access to the raw data (GPS, sensor, etc.), don't be afraid to reach out!
 

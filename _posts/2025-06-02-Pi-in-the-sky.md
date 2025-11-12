@@ -66,7 +66,7 @@ In short, to launch a stratospheric balloon legally, you need to prepare the fol
 
 Then you can fill in the stratospheric balloon launch form of relevant *Air Traffic Services* (ATS), in our case *Directoriaat-Generaal Luchtvaart* (DGLV) and apply for approval. The application must be submitted **no later than 20 and no earlier than 60 working days** before the planned launch date. Upon being granted approval, the ATS may mandate certain actions. As we had selected a launch site in the vicinity of Zwartberg Airfield (EBZW), we had to inform the aerodrome management of our activities.
 
-We chose to apply to launch on two launch dates, the primary date of 27/04/2025 and in the event of bad weather (excess wind, thunderstorms, etc.) a backup date of 11/05/2025. 
+We chose to apply to launch on two launch dates, the primary date of 27/04/2025 and in the event of bad weather (excess wind, thunderstorms, etc.) a backup date of 11/05/2025. Luckily both days had excellent weather and we made good use of this by launching twice on each of the days.
 
 (Disclaimer: This is not legal advice!)
 

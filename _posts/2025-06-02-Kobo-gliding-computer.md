@@ -16,7 +16,7 @@ image:
   lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
   alt: Cockpit view of the Kobo flight computer during an in-air test.
 ---
-LQIP
+
 After performing nearly $100$ glider flights and logging over $25$ flight hours as pilot in command time, I wanted to have a flight computer to help with thermalling (circling in the rising air currents) and keeping track of important flight parameters and location to help with flying ever increasing distances (XC). But looking at popular models like the LXNAV and Oudie series devices, they run quite pricy ranging from $800\,$€ to $1000\,$€, which is quite expensive for a student as myself to buy for the relatively short thermal season in Belgium. 
 
 Looking for alternatives, I came across the [XCSoar](https://www.xcsoar.org/) open-source gliding computer project designed to run on a wide range of platforms such as Windows, Linux, and especially e-readers. 

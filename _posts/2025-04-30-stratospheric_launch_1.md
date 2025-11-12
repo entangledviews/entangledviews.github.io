@@ -7,16 +7,15 @@ categories: [Pi in the Sky]
 tags: [stratospheric, balloon, science, physics, engineering, data processing, spectrometer, spectra, pi in the sky]
 pin: false
 math: true
-recent-project: false
+recent-project: true
 mermaid: false
 media_subpath: /assets/posts/pi_in_the_sky/
 
 image:
   path: /stratospheric_launch_1/pictures/walking_the_balloon.jpg
-  lqip: data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAALABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCrEitjGD9DSyWwIzg5rjldx0Yj8akFxMOkzj/gRrfmQtToXtzu6UVz32qf/ns//fVFK6Hc/9k=
   alt: Walking the Helium-filled latex balloon to the launch site with the parachute and payload box attached. Taken by Marieke Vereycken.
 ---
-LQIP
+
 Pi in the Sky is a student-led high-altitude balloon program combining engineering and physics to carry scientific payloads into the stratosphere. See the [main project post](../Pi-in-the-sky/) for a general overview. 
 
 
@@ -78,7 +77,7 @@ Using this formula, the measured pressure and temperature data can be converted 
 ![dark mode](stratospheric_launch_1/altitude_graph_black.png){: .dark } 
 
 ### Temperature vs Altitude
-Plotting the outside temperature measurements as a function of altitude during the ascent phase shows a nearly inverse linear relation between temperature and altitude up to around $11 \,\mathrm{km}$, after which the temperature begins to increase again. This corresponds to the transition from the troposphere to the stratosphere.[^noaa_atmosphere] 
+Plotting the outside temperature measurements as a function of altitude during the ascent phase shows a nearly inverse linear relation between temperature and altitude up to around $11 \,\mathrm{km}$, after which the temperature begins to increase again. This region is the tropopause, the transition from the troposphere to the stratosphere.[^noaa_atmosphere] 
 During this mission, the temperature dropped to a minimum of $-36.75\,^\circ\mathrm{C}$ before rising to $23.38\,^\circ\mathrm{C}$ at the peak of the flight at $41.60 \,\mathrm{km}$.
 
 ![light mode](stratospheric_launch_1/temperature_graph_white.png){: .light }
