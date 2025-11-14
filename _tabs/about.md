@@ -85,10 +85,7 @@ Aug 2022
 
 
 ## Conference Proceedings
-- **Phoenix Project - High-Altitude Spectroscopy for Measuring Trace Gases**  
-<span class="proceedings-name" >Y. Janssen Verlaak</span>, A. Seynhaeve, W. Stulens, et al.,
-27th ESA Symposium on European Rocket and Balloon Programmes and Related Research, Trondheim, Norway, May-Jun. 2026. (Abstract accepted)
-{:.indent}
+
 
 - **Peregrinus: A high school built magnetometer & radiation experiment to orbit earth on Ariane-6**  
 <span class="proceedings-name" >Y. Janssen Verlaak</span>, L. Denis, E. de Schrĳver, et al., 
