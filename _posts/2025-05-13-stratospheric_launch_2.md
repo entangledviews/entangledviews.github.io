@@ -12,8 +12,8 @@ mermaid: false
 media_subpath: /assets/posts/pi_in_the_sky/
 
 image:
-  path: beautiful_planet.jpg
-  alt: The Earth from 37 km above, showing the coastline of Belgium and the Netherlands with a few clouds.
+  path: another_image.jpg
+  alt: The Earth shown from 41 km above, covering Germany and part of eastern Europe.
 ---
 
 Pi in the Sky is a student-led high-altitude balloon program combining engineering and physics to carry scientific payloads into the stratosphere. See the [main project post](../Pi-in-the-sky/) for a general overview. 

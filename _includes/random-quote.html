@@ -2,10 +2,11 @@
   <em>Loading a quote...</em>
 </div>
 
+{% raw %}
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   // Safely load quotes from YAML using jsonify
-  const quotes = {{ site.data.quotes | jsonify }};
+  const quotes = {% endraw %}{{ site.data.quotes | jsonify }}{% raw %};
 
   // Pick a random quote string
   const randomQuoteStr = quotes[Math.floor(Math.random() * quotes.length)];
@@ -21,5 +22,4 @@ document.addEventListener("DOMContentLoaded", function() {
     `${quoteText} ${authorQuoted}`;
 });
 </script>
-
-
+{% endraw %}
