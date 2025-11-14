@@ -85,18 +85,20 @@ Aug 2022
 
 
 ## Conference Proceedings
+- **Phoenix Project - High-Altitude Spectroscopy for Measuring Trace Gases**  
+<span class="proceedings-name" >Y. Janssen Verlaak</span>, A. Seynhaeve, W. Stulens, et al.,
+27th ESA Symposium on European Rocket and Balloon Programmes and Related Research, Trondheim, Norway, May-Jun. 2026. (Abstract accepted)
+{:.indent}
 
 - **Peregrinus: A high school built magnetometer & radiation experiment to orbit earth on Ariane-6**  
-<span class="proceedings-name" >Y. Janssen Verlaak</span>, E. de Schrĳver, L. Denis, et al., Proceedings of the 26th ESA PAC Symposium,
-Luzern, Switzerland, May 2024, 295–297 pg.
+<span class="proceedings-name" >Y. Janssen Verlaak</span>, L. Denis, E. de Schrĳver, et al., 
+Proceedings of the 26th ESA PAC Symposium, Luzern, Switzerland, May 2024, 295–297 pg.
 [https://atpi.eventsair.com/26th-esa-pac-symposium/proceedings](https://atpi.eventsair.com/26th-esa-pac-symposium/proceedings)
 {:.indent}
 
 - **Magnetic field measurements along the trajectory of the Ariane 6 maiden flight utilizing quantum diamond-based sensors**  
-Y. Beerden, <span class="proceedings-name" >Y. Janssen Verlaak</span>
-, D. Hendrikx, et al., Proceedings of the 75th
-International Astronautical Congress, Interactive Presentation, International Astronautical Federation
-(IAF), Milan, Italy, Oct. 2024, Paper ID: IAC–24, B1, IP, 57, x90761.
+Y. Beerden, <span class="proceedings-name" >Y. Janssen Verlaak</span>, D. Hendrikx, et al.,
+Proceedings of the 75th International Astronautical Congress, Interactive Presentation, International Astronautical Federation (IAF), Milan, Italy, Oct. 2024, Paper ID: IAC–24, B1, IP, 57, x90761.
 [https://iafastro.directory/iac/paper/id/90761/summary/](https://iafastro.directory/iac/paper/id/90761/summary/)
 {:.indent}
 

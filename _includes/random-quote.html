@@ -3,26 +3,23 @@
 </div>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const quotes = [
-      {% for q in site.data.quotes %}
-        "{{ q | escape }}"{% unless forloop.last %},{% endunless %}
-      {% endfor %}
-    ];
+document.addEventListener("DOMContentLoaded", function() {
+  // Safely load quotes from YAML using jsonify
+  const quotes = {{ site.data.quotes | jsonify }};
 
-    // Pick a random quote string
-    const randomQuoteStr = quotes[Math.floor(Math.random() * quotes.length)];
+  // Pick a random quote string
+  const randomQuoteStr = quotes[Math.floor(Math.random() * quotes.length)];
 
-    // Split quote and author
-    const [quoteText, author] = randomQuoteStr.split("|");
+  // Split quote and author
+  const [quoteText, author] = randomQuoteStr.split("|");
 
-    // Emphasize author
-    const authorQuoted = `<span class="author">-<em>${author}</em></span>`;
+  // Emphasize author
+  const authorQuoted = `<span class="author">-<em>${author}</em></span>`;
 
-    // Display formatted quote
-    document.getElementById("random-quote").innerHTML =
-      `${quoteText} ${authorQuoted}`;
-    
-  });
+  // Display formatted quote
+  document.getElementById("random-quote").innerHTML =
+    `${quoteText} ${authorQuoted}`;
+});
 </script>
+
 

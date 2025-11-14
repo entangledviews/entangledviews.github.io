@@ -82,7 +82,7 @@ We invited local press and radio amateur clubs, along with friends and family, t
 
 ### Special thanks  
 This project would not have been possible without the generous support and collaboration of our partners and teammates:  
-- **Team members Achiel Seynhaeve and Wout Stulens** – for their creativity, dedication, and teamwork throughout the entire journey.  
+- **Team members Achiel Seynhaeve and Wout Stulens** – for their teamwork, dedication and creativity throughout the entire project.  
 - **UHasselt and PhysX Lab** – for sponsoring material costs of the balloon and gondola, providing optical components for the UV spectrometer, and granting access to technical facilities.  
 - **VTI Ieper (secundary school)** – for partially funding the project, ensuring future launch capability, and trusting us with their experiment.  
 - **Dirk Geeroms** – for help in coordinating the project, managing Helium logistics and securing launch site access.
