@@ -76,7 +76,7 @@ P = P_0 \,\exp\left(\frac{-m\,g\,h}{k\,T}\right)
 $$
 
 With $P$ and $T$ as the atmospheric pressure and temperature at altitude, 
-$P_0 = xxxx \,\text{hPa}\,$ as the sea-level pressure on 23/03/2023, 
+$P_0 = 996 \,\text{hPa}\,$ as the sea-level pressure on 23/03/2023, 
 $h_0 = 102 \,\text{m}$ as the launch site altitude, 
 $g = 9.80665 \,\text{m/s}^2$ as gravitational acceleration, 
 $M = 0.0289644 \,\text{kg/mol}$ as the molar mass of air, 

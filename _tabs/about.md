@@ -40,6 +40,9 @@ My skills have been developed through self-study, academic training, professiona
 
 ## Experiences
 
+
+
+
 **Faculty Coordinator** | Faculty of Sciences UHasselt, <span class="experience-date">Student Council</span>    
 Aug 2025 - Present
 - Elected by fellow Science students to represent them on the faculty board and student council.
@@ -56,17 +59,17 @@ Jun 2025 – Aug 2025
 
 --- 
 
-**Student Representative** |  Faculty of Sciences, <span class="experience-date">UHasselt</span>   
-Jan 2024 - Present
-- Representing physics students interests in the Educational Management Team (EMT) to provide feedback and improve the curriculum.
-
---- 
-
 **Student Researcher** | OSCAR-Qube,  <span class="experience-date">IMO-IMOMEC</span>  
-Sep 2023 - Nov 2024
+Sep 2023 - Present
 - Modelling quantum effects in NV- centers for precise magnetic field measurements in a space experiment as part of an interdisciplinary student team.
 - Designed test equipment, including a Helmholtz cube, to simulate magnetic fields encountered during flight.
 - Performed EMI/EMC simulations in Ansys HFSS to verify compliance with spacecraft guidelines.
+
+--- 
+
+**Student Representative** |  Faculty of Sciences, <span class="experience-date">UHasselt</span>   
+Jan 2024 - Present
+- Representing physics students interests in the Educational Management Team (EMT) to provide feedback and improve the curriculum.
 
 --- 
 
@@ -85,7 +88,10 @@ Aug 2022
 
 
 ## Conference Proceedings
-
+- **Phoenix Project - High-Altitude Spectroscopy for Measuring Trace Gases**  
+<span class="proceedings-name" >Y. Janssen Verlaak</span>, A. Seynhaeve, W. Stulens, et al.,
+27th ESA Symposium on European Rocket and Balloon Programmes and Related Research, Trondheim, Norway, May-Jun. 2026. (Abstract selected)
+{:.indent}
 
 - **Peregrinus: A high school built magnetometer & radiation experiment to orbit earth on Ariane-6**  
 <span class="proceedings-name" >Y. Janssen Verlaak</span>, L. Denis, E. de Schrĳver, et al., 
@@ -100,13 +106,15 @@ Proceedings of the 75th International Astronautical Congress, Interactive Presen
 {:.indent}
 
 ## Trainings
+- [Fortran for programmers](/assets/certificates/Fortran_for_programmers.PDF) by KULeuven ([KULeuven](https://admin.kuleuven.be/icts/opleidingen/opleidingsaanbod/fortran-for-programmers-hybrid))
 - [Python for Data science](/assets/certificates/VSC_python_for_datascience.PDF) by Flemish Supercomputer Centre ([VSC](https://www.vscentrum.be/))
+
 
 ## Certifications
 
-- Science Faculty coordinator: Elected role on the student council (2025-2026)
+- [Science Faculty coordinator](/assets/certificates/Statute_Studentrepresentative_Yves%20Janssen%20Verlaak.pdf): Elected role on the student council (2025-2026)
 - [Young Science Conference](/assets/certificates/YSC_Yves_Janssen_Verlaak.pdf): Presented a poster on a conference as first-year bachelor student (2024)
-- [LaTeX workshop](https://github.com/Allyson-Robert/filii-latex): Assisted in giving an annual LaTeX workshop for three consecutive years at UHasselt (2023-2025)
+- [LaTeX workshop](https://github.com/Allyson-Robert/filii-latex): Assisted in giving an annual LaTeX workshop for three consecutive years at Hasselt University (2023-2026)
 - [Certificate buddy program](/assets/certificates/Attest%20buddywerking_YVES%20JANSSEN%20VERLAAK.pdf): Supported first-year physics students with the transition to university life (2024-2025)
 
 
@@ -114,7 +122,7 @@ References are available upon request.
 
 
 <figcaption class="text-center text-muted post-meta">
-  Website based on Chirpy template from <a href="https://github.com/cotes2020/jekyll-theme-chirpy">cotes2020</a>.
+  Website built on template by <a href="https://github.com/cotes2020/jekyll-theme-chirpy">cotes2020</a>.
 </figcaption>
 
 <style>

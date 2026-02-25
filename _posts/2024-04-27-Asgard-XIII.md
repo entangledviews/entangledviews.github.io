@@ -66,6 +66,6 @@ By the time we got back to the hotel, it was around 22:30, after helping a bit w
 
 ![Group photo](group_photo.jpg){: width="500"  }
 _Group photo with my old Asgard teammembers in front of the tracking website._
-Many thanks to the **Royal Meteorological Observatory**, **ESERO Belgium** and **Erik de Schrijver** for organizing this year’s Asgard campaign. Also thanks to my former teammates who invited me again to take part in this great adventure, even if it turned out to be one of the most exhausting but fun editions so far!
+Many thanks to the **Royal Meteorological Observatory**, **ESERO Belgium** and **Erik de Schrijver** for organizing this year’s Asgard campaign. Also thanks to my former teammates, **Antonius Dinca**, **Siebe Penders** and **Nathan Vanderhallen** who invited me again to take part in this great adventure, even if it turned out to be one of the most exhausting but fun editions so far!
 
 Be sure to check out their side of the story, at [dirkgeeroms.be](https://dirkgeeroms.be/spaceheadingdeezers/asgard/2024-asgard-xiii/).

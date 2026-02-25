@@ -19,11 +19,11 @@ image:
 
 The [ASGARD](https://esero.be/index.php/nl/asgard-balloons-for-science/) project gives highschool students the opportunity to design and launch real scientific experiments to the edge of space using high-altitude balloons from the Royal Meteorological Institute in Uccle, Brussels. It is a hands-on educational program that simulates a genuine space mission, letting student teams plan, build, test, present and analyze their experiments over the course of a school year. ASGARD campaigns focus on learning, teamwork, and scientific curiosity rather than competition. 
 
-I personally had the pleasure of partaking in this project for several years in a row, first assisting senior students, then leading the missions myself and guiding new teammates to work together to design, build and launch new experiments. Below is a list of Asgard campaigns in which I contributed and later led:
+I had the pleasure of participating in this project for several consecutive years, first assisting senior students, and later leading the missions myself while guiding new teammates in designing, building, and launching experiments. Below is a list of Asgard campaigns in which I have both led and contributed:
 
 - [Asgard-X](../Asgard-X/) (2021)
 - [Asgard-XI](../Asgard-XI/) (2022)
 - [Asgard-XII](../Asgard-XII/) (2023)
-- [Asgard-XII](../Asgard-XIII/) (2024)
+- [Asgard-XIII](../Asgard-XIII/) (2024)
 
 Many thanks to my former high school physics teacher and dear friend **Dirk Geeroms**, whose encouragement and guidance inspired me to pursue these campaigns, as well as to all my teammates, whose collaboration and dedication made every mission possible.

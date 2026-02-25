@@ -262,8 +262,7 @@ Or expressed as a wavelength with $\lambda = \frac{v}{f}$ and speed of light $c$
 $$
 \lambda = \frac{c}{f} \approx 21.0705 \, \text{cm}
 $$
-
-These values are in close agreement with the observed laboratory value[^Hline], the small error is due to taking only the first order perturbation approximation neglecting higher-order QED and nuclear corrections.
+Now the famous $21\mathrm{cm}$-line pop out, being in close agreement with the observed laboratory values[^Hline], the small error is due to taking only the first order perturbation approximation neglecting higher-order QED and nuclear corrections.
 # Sources
 [^introduction_qm]: David J. Griffiths, <em>Introduction to Quantum Mechanics</em>, 3rd ed., Eq. 4.135
 [^Dipole_exercise]: David J. Griffiths, <em>Introduction to Quantum Mechanics</em>, 3rd ed., Exercise 7.31
