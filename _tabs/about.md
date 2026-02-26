@@ -20,7 +20,7 @@ My physics journey began in 2014 with Arduino-based experiments, progressing fro
 
 These projects included participating in [Asgard](../posts/Asgard-campaigns) projects, launching experiments on stratospheric balloons from the RMI in Brussels to [Astro Pi](https://astro-pi.org/), an ESA program that allows students to run experiments on Raspberry Pi's aboard the International Space Station. These experiences ultimately led to my contribution to the downlinking software for the [Peregrinus experiment](../posts/Peregrinus-ariane6), which was launched aboard the Ariane 6 maiden flight.
 
-In university I continued these interests in the Oscar-QUBE group in my first year working on modelling quantum effects for NV diamond magnetometry in space and designing test equipment. In my second year organising a [stratospheric balloon program](../posts/Pi-in-the-sky/) during a course on "Experimental Techniques", launching a self-developed UV spectrometer and taking on additional experiments from highschool students.
+In university I continued these interests in the Oscar-QUBE group in my first year working on modelling quantum effects for NV diamond magnetometry in space applications and designing test equipment. In my second year organising a [stratospheric balloon program](../posts/Pi-in-the-sky/) during a course on "Experimental Techniques", launching a self-developed UV spectrometer and taking on additional experiments from highschool students.
 
 
 ## Skills
@@ -40,9 +40,6 @@ My skills have been developed through self-study, academic training, professiona
 
 ## Experiences
 
-
-
-
 **Faculty Coordinator** | Faculty of Sciences UHasselt, <span class="experience-date">Student Council</span>    
 Aug 2025 - Present
 - Elected by fellow Science students to represent them on the faculty board and student council.
@@ -59,17 +56,17 @@ Jun 2025 – Aug 2025
 
 --- 
 
-**Student Researcher** | OSCAR-Qube,  <span class="experience-date">IMO-IMOMEC</span>  
-Sep 2023 - Present
-- Modelling quantum effects in NV- centers for precise magnetic field measurements in a space experiment as part of an interdisciplinary student team.
-- Designed test equipment, including a Helmholtz cube, to simulate magnetic fields encountered during flight.
-- Performed EMI/EMC simulations in Ansys HFSS to verify compliance with spacecraft guidelines.
-
---- 
-
 **Student Representative** |  Faculty of Sciences, <span class="experience-date">UHasselt</span>   
 Jan 2024 - Present
 - Representing physics students interests in the Educational Management Team (EMT) to provide feedback and improve the curriculum.
+
+--- 
+
+**Student Researcher** | OSCAR-Qube,  <span class="experience-date">IMO-IMOMEC</span>  
+Sep 2023 - Nov 2024
+- Modelling quantum effects in NV- centers for precise magnetic field measurements in a space experiment as part of an interdisciplinary student team.
+- Designed test equipment, including a Helmholtz cube, to simulate magnetic fields encountered during flight.
+- Performed EMI/EMC simulations in Ansys HFSS to verify compliance with spacecraft guidelines.
 
 --- 
 
