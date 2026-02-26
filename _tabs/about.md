@@ -103,8 +103,8 @@ Proceedings of the 75th International Astronautical Congress, Interactive Presen
 {:.indent}
 
 ## Trainings
-- [Fortran for programmers](/assets/certificates/Fortran_for_programmers.PDF) by KULeuven ([KULeuven](https://admin.kuleuven.be/icts/opleidingen/opleidingsaanbod/fortran-for-programmers-hybrid))
-- [Python for Data science](/assets/certificates/VSC_python_for_datascience.PDF) by Flemish Supercomputer Centre ([VSC](https://www.vscentrum.be/))
+- [Fortran for programmers](/assets/certificates/Fortran_for_programmers.pdf) by KULeuven ([KULeuven](https://admin.kuleuven.be/icts/opleidingen/opleidingsaanbod/fortran-for-programmers-hybrid))
+- [Python for Data science](/assets/certificates/VSC_python_for_datascience.pdf) by Flemish Supercomputer Centre ([VSC](https://www.vscentrum.be/))
 
 
 ## Certifications
